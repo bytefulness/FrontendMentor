@@ -44,7 +44,7 @@ body {
   /* background-color: var(--pale-blue);
   background-image: url(/images/pattern-background-desktop.svg);
   background-repeat: no-repeat; */
-  background: var(--pale-blue) url(/images/pattern-background-desktop.svg) top
+  background: var(--pale-blue) url(./images/pattern-background-desktop.svg) top
     no-repeat;
   font-family: "Red Hat Display", sans-serif;
 }
