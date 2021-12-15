@@ -1,0 +1,42 @@
+/* || Variables */
+:root {
+  /* || COLORS */
+  --blue: hsl(246, 80%, 60%);
+  --work-color: hsl(15, 100%, 70%);
+  --play-color: hsl(195, 74%, 62%);
+  --study-color: hsl(348, 100%, 68%);
+  --exercise-color: hsl(145, 58%, 55%);
+  --social-color: hsl(264, 64%, 52%);
+  ---self-care-color: hsl(43, 84%, 65%);
+
+  /* - Neutral Colors */
+
+  --very-dark-blue: hsl(226, 43%, 10%);
+  --dark-blue: hsl(235, 46%, 20%);
+  --desatured-blue: hsl(235, 45%, 61%);
+  --pale-blue: hsl(236, 100%, 87%);
+
+  /* || FONT */
+}
+
+/* || Typography */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+
+/* || Generic Styles */
+html {
+  font-size: 18px;
+}
+
+body {
+  background: var(--very-dark-blue);
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+}
+
+main {
+  padding: 2rem 0;
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  gap: 2rem;
+}
